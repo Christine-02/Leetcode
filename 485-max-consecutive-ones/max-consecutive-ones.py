@@ -9,7 +9,6 @@ class Solution:
                 pt2 = pt2+1
                 count = count+1
             elif nums[pt2] == 0:  
-                maxcon = max(count,maxcon)
                 count = 0
                 pt2=pt2+1
             maxcon = max(count,maxcon)
